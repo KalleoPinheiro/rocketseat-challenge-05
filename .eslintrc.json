@@ -28,6 +28,10 @@
       {
         "ts": "never"
       }
+    ],
+    "class-methods-use-this": [
+      "error",
+      { "exceptMethods": ["list", "store", "update", "remove"] }
     ]
   },
   "settings": {
